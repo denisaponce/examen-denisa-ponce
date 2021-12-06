@@ -1,0 +1,65 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6; /*2º hack convertir en 16px la web*/
+  line-height: 2;  /*separacion entre los parrafos*/
+
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.primera{
+  display: flex;
+  justify-content: space-between;
+  padding: 6.1rem 3.6rem;
+  gap: 7.1rem;
+}
+.rectangulo1 {
+  width: 24.4rem;
+  height: 24.4rem;
+  background: #66c8ff;
+}
+.segunda {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3.6rem;
+  gap: 4.7rem;
+}
+.rectangulo2:first-child{
+  width: 40.2rem;
+  height: 24.4rem;
+  background: #ff6666;
+}
+.rectangulo2:last-child{
+  width: 43.9rem;
+  height: 24.4rem;
+  background: #ff6666;
+}
+.tercera{
+  width: 93.5rem;
+  height: 75.4rem;
+  background:  #46599c;
+  margin: 2rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+.rectangulo3{
+  width: 35.6rem;
+  height: 24.4rem;
+  background: #ff6666;
+
+}

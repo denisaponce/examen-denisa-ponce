@@ -1,0 +1,98 @@
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6; /*2º hack convertir en 16px la web*/
+  line-height: 2;  /*separacion entre los parrafos*/
+
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.contenedor{
+  width: min(90%, 1000px);
+  /* height: 400px; */
+  margin: 0 auto;
+
+}
+header{
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.4rem;
+}
+.flex-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.4rem;
+}
+.logo{
+  width: 7.5rem;
+  height: 2.7rem;
+}
+.boton{
+  width: 7.5rem;
+  height: 2.7rem;
+}
+.menu{
+  display: none;
+  gap: 2rem
+}
+.menu img{
+  width: 7.5rem;
+  height: 2.7rem;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 5.1rem 0;
+
+}
+.div1 {
+  background: green;
+  width: 32.6rem;
+  height: 14.7rem;
+}
+.div2{
+  background: green;
+  width: 32.6rem;
+  height: 14.7rem;
+}
+.div3 {
+  background: green;
+  width: 32.6rem;
+  height: 14.7rem;
+}
+
+@media (min-width: 375px) {
+  body{
+    margin: 0 auto;
+    max-width: 768px;
+  }
+}
+@media (min-width: 768px) {
+   .boton{
+     display: none;
+}
+  .menu{
+    display: flex;
+  }
+  section{
+    flex-direction: row;
+  }
+  
+}
